@@ -1,7 +1,7 @@
 #TEXTO CIFRADO
-textEncryp = "lzav lz bu tluzhql kl wyblihz";#tiene error no es q es p
+textEncryp = "lzav lz bu tluzhql kl wyblihz";#tiene error no es q es p (depende el tipo de alfabeto que se use, eneste caso se usa el alfabeto ingles)
 #LENGUAJE ABECEDARIO
-languaje = ["a","b","c","d","e","f","g","h","i","j","k","l", "ñ","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+languaje = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 # CIFRADO CESAR
 # CONSISTE EN TOMAR UNA POSICIÓN DEL ABECEDARIO:
 # INICIAR EL ABECEDARIO DESDE ESA POSICIÓN
