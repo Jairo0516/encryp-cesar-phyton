@@ -1,3 +1,5 @@
+import langdetect
+
 #TEXTO CIFRADO
 textEncryp = "lzav lz bu tluzhql kl wyblihz";#tiene error no es q es p (depende el tipo de alfabeto que se use, eneste caso se usa el alfabeto ingles)
 #LENGUAJE ABECEDARIO
@@ -34,8 +36,8 @@ for init in range(0, 26):
             for index, item in enumerate(sustitution):
                 if(item == te):
                     result = result + (languaje[index])
-
-
-
-    print("result end:", init)
-    print(result, "\n")
+        else: 
+             result = result + " "
+    if(langdetect.detect(result) == "es"):
+        print("El texto descifrado es: ", result)
+        print("La clave de descifrado es: ", position)
